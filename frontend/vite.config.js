@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     sourcemap: true,
     assetsDir: "static",
-    outDir: resolve("../backend/dist"),
+    outDir: resolve("../dist"),
   },
   resolve: {
     alias: {
