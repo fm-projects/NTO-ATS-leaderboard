@@ -24,13 +24,14 @@ const max_scores = [15, 40, 30, 15];
 
 <template>
   <div class="container mt-4 mb-5">
-    <h1 class="mb-3">НТО АТС Leaderboard</h1>
+    <h1 class="mb-4">🏆 NTO ATS Leaderboard</h1>
     <div v-if="leaderboard !== null">
       <table class="table table-sm table-bordered text-center">
         <thead>
           <tr>
             <th colspan="3"></th>
             <th colspan="4">Задачи</th>
+            <th></th>
           </tr>
           <tr>
             <th>Место</th>
@@ -71,6 +72,10 @@ const max_scores = [15, 40, 30, 15];
         Made by
         <a class="link-dark" href="https://github.com/AlanTheKnight"
           >AlanTheKnight</a
+        >
+        &
+        <a class="link-dark" href="https://github.com/zaborshikov"
+          >zaborshikov</a
         >
       </div>
     </div>
